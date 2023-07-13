@@ -50,6 +50,7 @@ The HTML element is everything from the start tag to the end tag:
 - The `<h1>` element defines a large heading
 - The `<p>` element defines a paragraph
 
+The content inside the `<body>` section will be displayed in a browser. The content inside the `<title>` element will be shown in the browser's title bar or in the page's tab.
 
 ### HTML Page Structure
 
