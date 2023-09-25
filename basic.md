@@ -97,10 +97,11 @@ The source file `src`, alternative text `alt`, `width`, and `height` are provide
 <h2>HTML Images</h2>
 <p>HTML images are defined with the img tag:</p>
 
-<img src="cat.jpg" alt="https://github.com/SunnyAris/notatki/blob/main/cat.jpg" width="104" height="142">
+<img src="/Users/aris/Desktop/cat.jpg" alt="kotek" width="453" height="605">
 
 </body>
 </html>
-```
 
+```
+![Alt text](<Screenshot 2023-09-25 at 16.40.36.png>)
 
