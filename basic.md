@@ -47,7 +47,7 @@ HTML headings are defined with the `<h1>` to `<h6>` tags.
 </body>
 </html>
 ```
-![Alt text](b2.png)
+![Alt text](doc-files/b2.png)
 
 ### HTML Paragraphs `<p>`
 ```
@@ -61,7 +61,7 @@ HTML headings are defined with the `<h1>` to `<h6>` tags.
 </body>
 </html>
 ```
-![Alt text](b3.png)
+![Alt text](doc-files/b3.png)
 
 ### HTML Links
 HTML links are defined with the `<a>` tag
@@ -80,7 +80,7 @@ HTML links are defined with the `<a>` tag
 </html>
 
 ```
-![Alt text](b4.png)
+![Alt text](doc-files/b4.png)
 
 
 ### HTML Images
@@ -103,5 +103,5 @@ The source file `src`, alternative text `alt`, `width`, and `height` are provide
 </html>
 
 ```
-![Alt text](<Screenshot 2023-09-25 at 16.40.36.png>)
+![Alt text](<doc-files/Screenshot 2023-09-25 at 16.40.36.png>)
 
