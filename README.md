@@ -39,7 +39,7 @@ The HTML element is everything from the start tag to the end tag:
 </html>
 ```
 
-![img.png](img.png)
+![Alt text](doc-files/img.png)
 
 
 - The `<!DOCTYPE html> `declaration defines that this document is an HTML5 document
@@ -54,7 +54,7 @@ The content inside the `<body>` section will be displayed in a browser. The cont
 
 ### HTML Page Structure
 
-![img_1.png](img_1.png)
+![Alt text](doc-files/img_1.png)
 
 
 
