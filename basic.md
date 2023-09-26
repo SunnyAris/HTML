@@ -41,68 +41,6 @@ It has a start tag `<p>` and an end tag `</p>`
 </body>
 </html>
 ```
-## `<br>`
-
-HTML elements with no content are called empty elements.
-
-
-The `<br>` tag defines a line break, and is an empty element without a closing tag:
-
-```
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>My First Heading</h1>
-
-<p>My first paragraph.</p>
-
-<p>This is a <br> paragraph with a line break.</p>
-
-</body>
-</html>
-```
-![Alt text](doc-files/b5.png)
-
-Use `<br>` if you want a line break (a new line) without starting a new paragraph:
-
-
-
-``` 
-<!DOCTYPE html>
-<html>
-<body>
-
-<p>This is<br>a paragraph<br>with line breaks.</p>
-
-</body>
-</html>
-```
-
-![Alt text](doc-files/b11.png)
-
-## `<pre>`
-
-
-```
-<!DOCTYPE html>
-<html>
-<body>
-
-<p>The pre tag preserves both spaces and line breaks:</p>
-
-<pre>
-    The house cat sits
-    And smiles and sings.
-    He knows a lot 
-    Of secret things.
-</pre>
-
-</body>
-</html>
-```
-![Alt text](doc-files/b12.png)
-
 
 
 ## `<!DOCTYPE>`
@@ -246,6 +184,70 @@ The `title` attribute defines some extra information about an element.
 `<p title='John "ShotGun" Nelson'>`
 
 ![Alt text](doc-files/b8.png)
+
+## `<br>`
+
+HTML elements with no content are called empty elements.
+
+
+The `<br>` tag defines a line break, and is an empty element without a closing tag:
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+<p>This is a <br> paragraph with a line break.</p>
+
+</body>
+</html>
+```
+![Alt text](doc-files/b5.png)
+
+Use `<br>` if you want a line break (a new line) without starting a new paragraph:
+
+
+
+``` 
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This is<br>a paragraph<br>with line breaks.</p>
+
+</body>
+</html>
+```
+
+![Alt text](doc-files/b11.png)
+
+## `<pre>`
+
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The pre tag preserves both spaces and line breaks:</p>
+
+<pre>
+    The house cat sits
+    And smiles and sings.
+    He knows a lot 
+    Of secret things.
+</pre>
+
+</body>
+</html>
+```
+![Alt text](doc-files/b12.png)
+
+
 
 
 ### HTML Links
