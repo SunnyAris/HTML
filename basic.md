@@ -41,8 +41,10 @@ It has a start tag `<p>` and an end tag `</p>`
 </body>
 </html>
 ```
+## `<br>`
 
 HTML elements with no content are called empty elements.
+
 
 The `<br>` tag defines a line break, and is an empty element without a closing tag:
 
@@ -60,8 +62,48 @@ The `<br>` tag defines a line break, and is an empty element without a closing t
 </body>
 </html>
 ```
-
 ![Alt text](doc-files/b5.png)
+
+Use `<br>` if you want a line break (a new line) without starting a new paragraph:
+
+
+
+``` 
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This is<br>a paragraph<br>with line breaks.</p>
+
+</body>
+</html>
+```
+
+![Alt text](doc-files/b11.png)
+
+## `<pre>`
+
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The pre tag preserves both spaces and line breaks:</p>
+
+<pre>
+    The house cat sits
+    And smiles and sings.
+    He knows a lot 
+    Of secret things.
+</pre>
+
+</body>
+</html>
+```
+![Alt text](doc-files/b12.png)
+
+
 
 ## `<!DOCTYPE>`
 
@@ -118,6 +160,23 @@ HTML headings are defined with the `<h1>` to `<h6>` tags.
 ```
 ![Alt text](doc-files/b2.png)
 
+### Specify the size for any heading with the style attribute, using the CSS font-size property:
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="font-size:60px;">Bigger Heading</h1>
+
+<p>You can change the size of a heading with the style attribute, using the font-size property.</p>
+
+</body>
+</html>
+```
+![Alt text](doc-files/b9.png)
+
+
+
 ### HTML Paragraphs `<p>`
 ```
 <!DOCTYPE html>
@@ -132,6 +191,33 @@ HTML headings are defined with the `<h1>` to `<h6>` tags.
 </html>
 ```
 ![Alt text](doc-files/b3.png)
+
+### HTML Horizontal 
+The `<hr>` element is used to separate content (or define a change) in an HTML page:
+
+The `<hr>` tag is an empty tag it has no end tag.
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
+
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+
+</body>
+</html>
+
+```
+![Alt text](doc-files/b10.png)
+
 
 ### Title
 
