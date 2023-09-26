@@ -5,6 +5,30 @@
 
 3. The visible part of the HTML document is between `<body>` and `</body>`.
 
+
+The `<html>` element is the root element and it defines the whole HTML document.
+
+It has a start tag `<html>` and an end tag `</html>`
+
+Then, inside the `<html>` element there is a `<body>` element
+
+The `<body>` element defines the document's body.
+
+It has a start tag `<body>` and an end tag `</body>`
+
+Then, inside the `<body>` element there are two other elements: `<h1>` and `<p>`
+
+The `<h1>` element defines a heading.
+
+It has a start tag `<h1>` and an end tag `</h1>`
+
+
+The `<p>` element defines a paragraph.
+
+It has a start tag `<p>` and an end tag `</p>`
+
+
+
 ```
 <!DOCTYPE html>
 <html>
@@ -18,13 +42,58 @@
 </html>
 ```
 
-### `<!DOCTYPE>`
+HTML elements with no content are called empty elements.
+
+The `<br>` tag defines a line break, and is an empty element without a closing tag:
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+<p>This is a <br> paragraph with a line break.</p>
+
+</body>
+</html>
+```
+
+![Alt text](doc-files/b5.png)
+
+## `<!DOCTYPE>`
 
 The `<!DOCTYPE>` declaration represents the document type, and helps browsers to display web pages correctly.
 
 It appear once, at the top of the page, is not case sensitive (so you could write it in lowercase, if you wanted to. But as the official documents use the capitalized doctype. => You can write it the way you want, but I recommend writing it in uppercase letters.)
 
 The `<!DOCTYPE>` declaration for HTML5 is: `<!DOCTYPE html>`
+
+
+## `<html>`
+
+### `lang`
+
+Add `lang` attribute inside the `<html>` tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+```
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+</body>
+</html>
+```
+Country codes can also be added to the language code in the `lang` attribute.
+
+`<html lang="en-US">`
+
+## `<body>`
 
 ### HTML Headings `<h1>`
 
@@ -55,13 +124,43 @@ HTML headings are defined with the `<h1>` to `<h6>` tags.
 <html>
 <body>
 
-<p>paragraph1.</p>
-<p>paragraph2.</p>
+<h2>Headling</h2>
+<p>paragraph</p>
+<p>paragraph</p>
 
 </body>
 </html>
 ```
 ![Alt text](doc-files/b3.png)
+
+### Title
+
+The `title` attribute defines some extra information about an element.
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 title="tooltip">Title</h2>
+
+<p title="tooltip">Mouse over this paragraph, to display the title attribute as a tooltip.</p>
+
+</body>
+</html>
+```
+![Alt text](doc-files/b6.png)
+
+### Single and Double Quotes
+
+`<p title="John 'ShotGun' Nelson">`
+
+![Alt text](doc-files/b7.png)
+
+`<p title='John "ShotGun" Nelson'>`
+
+![Alt text](doc-files/b8.png)
+
 
 ### HTML Links
 HTML links are defined with the `<a>` tag
