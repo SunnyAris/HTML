@@ -130,6 +130,108 @@ HTML headings are defined with the `<h1>` to `<h6>` tags.
 ```
 ![Alt text](doc-files/b3.png)
 
+
+### HTML `style`
+
+The HTML style attribute has the following syntax:
+
+`<tagname style="property:value;">`
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>black</p>
+<p style="color:red;">red</p>
+<p style="color:blue;">blue</p>
+<p style="font-size:50px;">size</p>
+
+</body>
+</html>
+```
+![Alt text](doc-files/s1.png)
+
+```
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+
+<h1>Background color</h1>
+<p>is blue</p>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-09-27 at 17.03.17.png>)
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:blue;">Heading</h1>
+<p style="background-color:yellow;">Paragraph</p>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-09-27 at 17.08.09.png>)
+
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:pink;">Heading</h1>
+<p style="color:purple;">Paragraph</p>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-09-27 at 17.11.05.png>)
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="font-family:verdana;">Font style 1</h1>
+<p style="font-family:courier;">Font style 2</p>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-09-27 at 17.15.22.png>)
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="font-size:300%;">Font size 1</h1>
+<p style="font-size:160%;">Font size 2</p>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-09-27 at 17.17.49.png>)
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-09-27 at 17.19.15.png>)
+
+
 ### HTML Horizontal 
 The `<hr>` element is used to separate content (or define a change) in an HTML page:
 
