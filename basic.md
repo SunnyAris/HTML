@@ -398,14 +398,23 @@ Use `<br>` if you want a line break (a new line) without starting a new paragrap
 Formatting elements were designed to display special types of text:
 
 `<b>` - Bold text
+
 `<strong>` - Important text
+
 `<i>` - Italic text
+
 `<em>` - Emphasized text
+
 `<mark>` - Marked text
+
 `<small>` - Smaller text
+
 `<del>` - Deleted text
+
 `<ins>` - Inserted text
+
 `<sub>` - Subscript text
+
 `<sup>` - Superscript text
 
 
