@@ -27,8 +27,6 @@ The `<p>` element defines a paragraph.
 
 It has a start tag `<p>` and an end tag `</p>`
 
-
-
 ```
 <!DOCTYPE html>
 <html>
@@ -41,7 +39,53 @@ It has a start tag `<p>` and an end tag `</p>`
 </body>
 </html>
 ```
+### HTML Comment Tag
+```
+<!DOCTYPE html>
+<html>
+<body>
 
+<!-- This is a comment -->
+<p>This is a paragraph.</p>
+<!-- Comments are not displayed in the browser -->
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-09-28 at 16.49.55.png>)
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Paragraph.</p>
+
+<!-- <p>Hidden paragraph </p> -->
+
+<p>Paragraph too.</p>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-09-28 at 16.54.12.png>)
+
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Paragraph.</p>
+<!--
+<p>Look at this cool image:</p>
+<img border="0" src="https://beks.pl/wp-content/uploads/2017/09/AE73_lowres.jpg" alt="Beksiński">
+-->
+<p>Paragraph.</p>
+
+</body>
+</html>
+```
 
 ## `<!DOCTYPE>`
 
