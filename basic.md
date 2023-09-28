@@ -517,6 +517,24 @@ HTML links are defined with the `<a>` tag
 ```
 ![Alt text](doc-files/b4.png)
 
+### HTML `<bdo>` 
+
+BDO stands for Bi-Directional Override.
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>If your browser supports bi-directional override (bdo), the next line will be written from right to left (rtl):</p>
+
+<bdo dir="rtl">This line will be written from right to left</bdo>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-09-28 at 16.33.00.png>)
+
 
 ### HTML Images
 
