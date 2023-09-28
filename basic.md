@@ -349,7 +349,153 @@ Use `<br>` if you want a line break (a new line) without starting a new paragrap
 ```
 ![Alt text](doc-files/b12.png)
 
+### HTML Formatting Elements
 
+Formatting elements were designed to display special types of text:
+
+`<b>` - Bold text
+`<strong>` - Important text
+`<i>` - Italic text
+`<em>` - Emphasized text
+`<mark>` - Marked text
+`<small>` - Smaller text
+`<del>` - Deleted text
+`<ins>` - Inserted text
+`<sub>` - Subscript text
+`<sup>` - Superscript text
+
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Normal text</p>
+
+<p><b>Bold text</b></p>
+
+<p><strong>Important text!</strong></p>
+
+<p><i>Italic text</i></p>
+
+<p><em>Emphasized text</em></p>
+
+<p><small>Smaller text</small></p>
+
+<p>Example of <mark>marked</mark> text.</p>
+
+<p>Example of <del>deleted</del> text</p>
+
+<p>Example of <del>deleted</del> <ins>inserted</ins> tekst.</p>
+
+<p>This is <sub>subscripted</sub> text.</p>
+
+<p>This is <sup>superscripted</sup> text.</p>
+
+
+</body>
+</html>
+
+```
+
+![Alt text](<doc-files/Screenshot 2023-09-28 at 13.27.17.png>)
+
+### HTML `<blockquote>` for Quotations
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Here is a quote from SEIKO's website:</p>
+
+<blockquote cite="https://www.seikowatches.com/global-en/special/heritage/">
+    The story of Seiko began in 1881, when a 21 year old entrepreneur, Kintaro Hattori, opened a shop selling and repairing watches and clocks in central Tokyo. Today, after more than 130 years of innovation, Kintaro Hattori’s company is still dedicated to the perfection that the founder always strove to achieve. On the following pages you can explore Seiko’s long history and see many of our landmark watches.
+</blockquote>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-09-28 at 14.19.55.png>)
+
+### HTML `<q>` for Short Quotations
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Browsers usually insert quotation marks around the q element.</p>
+
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-09-28 at 14.25.10.png>)
+
+### HTML `<abbr>` for Abbreviations
+
+Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element. 
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+<p>Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</p>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-09-28 at 14.30.15.png>)
+
+### HTML `<address>` for Contact Information
+
+The `<address>` element usually renders in italic, and browsers will always add a line break before and after the `<address>` element.
+
+
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The HTML address element defines contact information (author/owner) of a document or article.</p>
+
+<address>
+Written by John Doe.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+</body>
+</html>
+```
+
+![Alt text](<doc-files/Screenshot 2023-09-28 at 14.38.42.png>)
+
+### HTML `<cite>` for Work Title
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The HTML cite element defines the title of a work.</p>
+<p>Browsers usually display cite elements in italic.</p>
+
+<img src="https://beks.pl/wp-content/uploads/2017/09/AE73_lowres.jpg" width="220" height="277" alt="No Name">
+<p><cite>No Name</cite> by Zdzisław Beksiński. Painted in 1973.</p>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-09-28 at 15.07.00.png>)
 
 
 ### HTML Links
