@@ -79,20 +79,20 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 
 <p>Same as color name "Blue":</p>
 
-<h1 style="background-color:rgb(0, 0, 255);">rgbrgbrgb(0, 0, 255)</h1>
+<h1 style="background-color:rgb(0, 0, 255);">rgb(0, 0, 255)</h1>
 <h1 style="background-color:#0000FF;">#0000FF</h1>
-<h1 style="background-color:hsla(226, 92%, 63%);">hsl(226, 92%, 63%)</h1>
+<h1 style="background-color:hsl(240, 100%, 50%);">hsl(240, 100%, 50%)</h1>
 
 <p>Same as color name "Blue", but 50% transparent:</p>
-<h1 style="background-color:rgb(0, 0, 255,0.5);">rgbargbrgb(0, 0, 255,0.5)</h1>
-<h1 style="background-color:hsla(226, 92%, 63%,0.5);">hsla(226, 92%, 63%,0.5)</h1>
+<h1 style="background-color:rgb(0, 0, 255,0.5);">rgb(0, 0, 255,0.5)</h1>
+<h1 style="background-color:hsl(240, 100%, 50%,0.5);">hsl(240, 100%, 50%,0.5)</h1>
 
 <p>In addition to the predefined color names, colors can be specified using RGB, HEX, HSL, or even transparent colors using RGBA or HSLA color values.</p>
 
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-30 at 13.48.49.png>)
+![Alt text](<doc-files/Screenshot 2023-09-30 at 17.09.58.png>)
 
 
 ## HTML RGB, RGBA colors
