@@ -2,6 +2,11 @@
 
 HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.
 
+Color Converter
+
+
+https://www.w3schools.com/colors/colors_converter.asp
+
 ### Color names 
 
 Color Names Supported by All Browsers
@@ -92,11 +97,20 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 
 ## HTML RGB, RGBA colors
 
-An `RGB` color value represents RED, GREEN, and BLUE light sources.
+An `RGB` color value represents `RED`, `GREEN`, and `BLUE` light sources.
 
 An `RGBA` color value is an extension of RGB with an Alpha channel (opacity).
 
 ## RGB
+
+An RGB color value is specified with:
+
+red, 
+
+green, 
+
+blue.
+
 
 Each parameter defines the intensity of the color with a value between 0 and 255
 
@@ -127,7 +141,13 @@ To display `white`, set all color parameters to 255, like this: rgb(255, 255, 25
 
 An RGBA color value is specified with:
 
-rgba(red, green, blue, alpha)
+red, 
+
+green, 
+
+blue, 
+
+alpha.
 
 The alpha parameter is a number between 0.0 fully transparent and 1.0 not transparent
 
@@ -148,4 +168,111 @@ The alpha parameter is a number between 0.0 fully transparent and 1.0 not transp
 ```
 ![Alt text](<doc-files/Screenshot 2023-09-30 at 14.15.13.png>)
 
+## HTML HEX Colors
+
+#rrggbb
+
+Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).
+
+#ff0000 is displayed as `red`, because `red` is set to its highest value (ff), and the other two (green and blue) are set to 00.
+
+#00ff00 is displayed as `green` and 
+#0000ff is `blue`
+
+To display `black`, set all color parameters to 00, like this: #000000.
+
+To display `white`, set all color parameters to ff, like this: #ffffff.
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:#ff0000;">#ff0000</h1>
+<h1 style="background-color:#00ff00;">#00ff00</h1>
+<h1 style="background-color:#0000ff;">#0000ff</h1>
+
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-09-30 at 16.09.00.png>)
+
+## HTML HSL and HSLA Colors
+
+### HSL
+
+An HSL color value is specified with:
+
+hue, 
+
+saturation, 
+
+lightness. 
+
+
+`Hue` is a degree on the color wheel from 0 to 360. 
+
+0 is `red`, 
+
+120 is `green`, and 
+
+240 is `blue`.
+
+`Saturation` is a percentage value. 
+
+0% means a shade of gray, and 
+
+100% is the full color.
+
+`Lightness` is also a percentage value. 
+
+0% is `black`, and 
+
+100% is `white`.
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
+<h1 style="background-color:hsl(240, 100%, 50%);">hsl(240, 100%, 50%)</h1>
+<h1 style="background-color:hsl(120, 100%, 50%);">hsl(120, 100, 50%)</h1>
+<h1 style="background-color:hsl(0, 0%, 0%);">hsl(0, 0%, 0%)</h1>
+<h1 style="background-color:hsl(0, 0%, 100%);">hsl(0, 0%, 100%)</h1>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-09-30 at 16.48.05.png>)
+
+### HSLA
+
+An HSLA color value is specified with:
+
+hue, 
+
+saturation, 
+
+lightness, 
+
+alpha.
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:hsla(240, 100%, 50%, 0);">hsla(240, 100%, 50%, 0)</h1>
+<h1 style="background-color:hsla(240, 100%, 50%, 0.2);">hsla(240, 100%, 50%, 0.2)</h1>
+<h1 style="background-color:hsla(240, 100%, 50%, 0.4);">hsla(240, 100%, 50%, 0.4)</h1>
+<h1 style="background-color:hsla(240, 100%, 50%, 0.6);">hsla(240, 100%, 50%, 0.6)</h1>
+<h1 style="background-color:hsla(240, 100%, 50%, 0.8);">hsla(240, 100%, 50%, 0.8)</h1>
+<h1 style="background-color:hsla(240, 100%, 50%, 1);">hsla(240, 100%, 50%, 1)</h1>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-09-30 at 16.54.37.png>)
 
