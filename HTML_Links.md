@@ -8,6 +8,15 @@ The `href` attribute indicates the link's destination.
 The link text is the part that will be visible to the reader.
 
 
+Use the `target` attribute to define where to open the linked document
+
+Use the `<img>` element (inside `<a>`) to use an image as a link
+
+Use the `mailto:` scheme inside the `href` attribute to create a link that opens the user's email program
+
+
+
+
 ```
 <!DOCTYPE html>
 <html>
@@ -23,7 +32,25 @@ The link text is the part that will be visible to the reader.
 
 ```
 
+
 ![Alt text](doc-files/b4.png)
+
+## Link Titles
+
+```
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+
+<h2>Link Titles</h2>
+<p>The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.</p>
+<a href="http://git.artemi.uk/" title="Go to My Github">Visit my Github</a>
+
+</body>
+</html>
+```
+
+![Alt text](<doc-files/Screenshot 2023-10-02 at 15.05.13.png>)
 
 ### By default, links will appear as follows in all browsers:
 
@@ -31,7 +58,7 @@ The link text is the part that will be visible to the reader.
 - A visited link is underlined and purple
 - An active link is underlined and red
 
-### HTML Links - The target Attribute
+## HTML Links - The target Attribute
 
 The `target` attribute specifies where to open the linked document.
 
@@ -63,7 +90,7 @@ The `target` attribute can have one of the following values:
 ![Alt text](<doc-files/Screenshot 2023-10-02 at 12.00.22.png>)
 
 
-### Absolute URLs vs. Relative URLs
+## Absolute URLs vs. Relative URLs
 
 Absolute URL = full web address
 
@@ -88,7 +115,7 @@ Relative URL = link to a page located in the html folder on the current web site
 ![Alt text](<doc-files/Screenshot 2023-10-02 at 13.10.19.png>)
 
 
-### HTML Links - Use an Image as a Link
+## HTML Links - Use an Image as a Link
 
 To use an image as a link put the `<img>` tag inside the `<a>` tag:
 
@@ -110,7 +137,7 @@ To use an image as a link put the `<img>` tag inside the `<a>` tag:
 ![Alt text](<doc-files/Screenshot 2023-10-02 at 14.34.50.png>)
 
 
-### Link to an Email Address
+## Link to an Email Address
 
 
 ```
@@ -131,7 +158,10 @@ To use an image as a link put the `<img>` tag inside the `<a>` tag:
 
 ![Alt text](<doc-files/Screenshot 2023-10-02 at 14.47.03.png>)
 
-### Button as a link
+## Button as a link
+
+To use an HTML button as a link, you have to add some JavaScript code.
+
 
 ```
 <!DOCTYPE html>
