@@ -88,3 +88,24 @@ Relative URL = link to a page located in the html folder on the current web site
 ![Alt text](<doc-files/Screenshot 2023-10-02 at 13.10.19.png>)
 
 
+### HTML Links - Use an Image as a Link
+
+To use an image as a link put the `<img>` tag inside the `<a>` tag:
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image as a Link</h2>
+
+<p>The image below is a link. Try to click on it.</p>
+
+<a href="HTML_Links.md"><img src="doc-files/20211224_165825.png" alt="HTML" style="width:142px;height:142px;"></a>
+
+</body>
+</html>
+```
+
+![Alt text](<doc-files/Screenshot 2023-10-02 at 13.50.30.png>)
+
