@@ -109,3 +109,45 @@ To use an image as a link put the `<img>` tag inside the `<a>` tag:
 
 ![Alt text](<doc-files/Screenshot 2023-10-02 at 14.34.50.png>)
 
+
+### Link to an Email Address
+
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Link to an Email Address</h2>
+
+<p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute:</p>
+
+<p><a href="mailto:someone@example.com">Send email</a></p>
+
+</body>
+</html>
+
+```
+
+![Alt text](<doc-files/Screenshot 2023-10-02 at 14.47.03.png>)
+
+### Button as a link
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Button as a Links</h2>
+
+<p>Click the button to go to the HTML_Links</p>
+
+<button onclick="document.location='HTML_Links.md'">HTML</button>
+
+</body>
+</html>
+```
+
+![Alt text](<doc-files/Screenshot 2023-10-02 at 14.52.48.png>)
+
+
