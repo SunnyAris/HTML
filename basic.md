@@ -603,11 +603,10 @@ The source file `src`, alternative text `alt`, `width`, and `height` are provide
 <h2>HTML Images</h2>
 <p>HTML images are defined with the img tag:</p>
 
-<img src="/Users/aris/Desktop/cat.jpg" alt="kotek" width="453" height="605">
+<img src="doc-files/chibi2.jpg" alt="chibi" width="300" height="300">
 
 </body>
 </html>
-
 ```
-![Alt text](<doc-files/Screenshot 2023-09-25 at 16.40.36.png>)
+![Alt text](<doc-files/Screenshot 2023-10-02 at 14.40.31.png>)
 

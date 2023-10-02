@@ -107,5 +107,5 @@ To use an image as a link put the `<img>` tag inside the `<a>` tag:
 </html>
 ```
 
-![Alt text](<doc-files/Screenshot 2023-10-02 at 13.50.30.png>)
+![Alt text](<doc-files/Screenshot 2023-10-02 at 14.34.50.png>)
 
