@@ -52,11 +52,7 @@ Use the `mailto:` scheme inside the `href` attribute to create a link that opens
 
 ![Alt text](<doc-files/Screenshot 2023-10-02 at 15.05.13.png>)
 
-### By default, links will appear as follows in all browsers:
 
-- An unvisited link is underlined and blue
-- A visited link is underlined and purple
-- An active link is underlined and red
 
 ## HTML Links - The target Attribute
 
@@ -180,4 +176,57 @@ To use an HTML button as a link, you have to add some JavaScript code.
 
 ![Alt text](<doc-files/Screenshot 2023-10-02 at 14.52.48.png>)
 
+## HTML Link Colors
 
+
+An unvisited link is underlined and `blue`
+
+A visited link is underlined and `purple`
+
+An active link is underlined and `red`
+
+You can change links colors, by using CSS:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<h2 style="background-color:cornflowerblue;">Link Colors</h2>
+
+<p style="background-color:skyblue;"> You can change the default colors of links</p>
+
+<a href="http://git.artemi.uk/" target="_blank">My Github</a> 
+
+</body>
+</html>
+```
+
+![Alt text](<doc-files/Screenshot 2023-10-02 at 15.38.52.png>)
+
+
+![Alt text](<doc-files/Screenshot 2023-10-02 at 15.39.35.png>)
