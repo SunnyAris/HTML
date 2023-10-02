@@ -154,27 +154,6 @@ To use an image as a link put the `<img>` tag inside the `<a>` tag:
 
 ![Alt text](<doc-files/Screenshot 2023-10-02 at 14.47.03.png>)
 
-## Button as a link
-
-To use an HTML button as a link, you have to add some JavaScript code.
-
-
-```
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>Button as a Links</h2>
-
-<p>Click the button to go to the HTML_Links</p>
-
-<button onclick="document.location='HTML_Links.md'">HTML</button>
-
-</body>
-</html>
-```
-
-![Alt text](<doc-files/Screenshot 2023-10-02 at 14.52.48.png>)
 
 ## HTML Link Colors
 
@@ -230,3 +209,128 @@ a:active {
 
 
 ![Alt text](<doc-files/Screenshot 2023-10-02 at 15.39.35.png>)
+
+
+## Button as a link
+
+To use an HTML button as a link, you have to add some JavaScript code.
+
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Button as a Links</h2>
+
+<p>Click the button to go to the HTML_Links</p>
+
+<button onclick="document.location='HTML_Links.md'">HTML</button>
+
+</body>
+</html>
+```
+
+![Alt text](<doc-files/Screenshot 2023-10-02 at 14.52.48.png>)
+
+
+### Link Buttons Color
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link, a:visited {
+  background-color: #6495ED;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: blue;
+}
+</style>
+</head>
+<body>
+
+<h2 style="color:SteelBlue;">Link Button</h2>
+<p style="color:cornflowerblue;">A link styled as a button:</p>
+<a href="http://git.artemi.uk/" target="_blank">Link Button</a>
+
+</body>
+</html>
+```
+
+![Alt text](<doc-files/Screenshot 2023-10-02 at 15.58.16.png>)
+
+![Alt text](<doc-files/Screenshot 2023-10-02 at 15.58.45.png>)
+
+
+### Create a Bookmark in HTML
+
+First, use the id attribute to create a bookmark:
+
+`<h2 id="C10">Chapter 10</h2>`
+
+Then, add a link to the bookmark ("Jump to Chapter 10"), from within the same page:
+
+
+`<a href="#C10">Jump to Chapter 10</a>`
+
+```
+DOCTYPE html>
+<html>
+<body>
+
+<p><a href="#C10" style="color:Blue;">Jump to Chapter 10</a></p>
+
+
+<h2>Chapter 1</h2>
+<p>This is chapter </p>
+
+<h2>Chapter 2</h2>
+<p>This is chapter </p>
+
+<h2>Chapter 3</h2>
+<p>This is chapter </p>
+
+<h2>Chapter 4</h2>
+<p>This is chapter </p>
+
+<h2>Chapter 5</h2>
+<p>This is chapter </p>
+
+<h2>Chapter 6</h2>
+<p>This is chapter </p>
+
+<h2>Chapter 7</h2>
+<p>This is chapter </p>
+
+<h2>Chapter 8</h2>
+<p>This is chapter </p>
+
+<h2>Chapter 9</h2>
+<p>This is chapter </p>
+
+<h2 id="C10">Chapter 10</h2>
+<p>This is chapter </p>
+
+<h2>Chapter 11</h2>
+<p>This is chapter </p>
+
+<h2>Chapter 12</h2>
+<p>This is chapter </p>
+
+<h2>Chapter 13</h2>
+<p>This is chapter </p>
+
+
+</body>
+</html>
+```
+
+![Alt text](<doc-files/Screenshot 2023-10-02 at 16.15.41.png>)
