@@ -63,5 +63,27 @@ The `target` attribute can have one of the following values:
 ![Alt text](<doc-files/Screenshot 2023-10-02 at 12.00.22.png>)
 
 
+### Absolute URLs vs. Relative URLs
+
+
+
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Absolute URLs</h2>
+<p><a href="https://github.com/SunnyAris/HTML">Github</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="HTML_Links.md">HTML Links</a></p>
+
+</body>
+</html>
+```
+
+
+![Alt text](<doc-files/Screenshot 2023-10-02 at 13.10.19.png>)
 
 
