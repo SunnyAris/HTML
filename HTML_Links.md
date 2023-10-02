@@ -65,8 +65,9 @@ The `target` attribute can have one of the following values:
 
 ### Absolute URLs vs. Relative URLs
 
+Absolute URL = full web address
 
-
+Relative URL = link to a page located in the html folder on the current web site
 
 ```
 <!DOCTYPE html>
