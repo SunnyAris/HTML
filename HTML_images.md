@@ -150,6 +150,28 @@ The HTML `<map>` tag defines an image map. An image map is an image with clickab
 </html>
 ```
 
-![Alt text](<doc-files/Screenshot 2023-10-03 at 15.40.48.png>)
+![Alt text](<doc-files/Screenshot 2023-10-03 at 15.43.25.png>)
+
+
+
+### How to create a image map
+
+1. Add to `<img>` tag `usemap`  value with a hash tag `#` followed by the name of the image map this create a relationship between the image and the image map.
+
+2. Add `<map>` element with `name` atribute with the same name as usemap `#`
+
+3. Add the clickable areas using `<area>` element 
+
+4. Define the `shape` of the clikable area: 
+- rect - defines a rectangular region
+- circle - defines a circular region
+- poly - defines a polygonal region
+- default - defines the entire region
+
+5. Define some `coordinates` to be able to place the clickable area onto the image. 
+
+6. Add link to destination page in `href` attribute.
+
+
 
 
