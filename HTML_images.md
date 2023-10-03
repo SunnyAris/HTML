@@ -100,3 +100,31 @@ img {
 ```
 ![Alt text](<doc-files/Screenshot 2023-10-03 at 11.56.20.png>)
 
+## Floating Images
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Floating Images</h2>
+<p><strong>Float the image to the right:</strong></p>
+
+<p>
+<img src="doc-files/chibi2.jpg" alt="chibi" style="float:right;width:42px;height:42px;">
+A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+</p>
+
+<p><strong>Float the image to the left:</strong></p>
+<p>
+<img src="doc-files/chibi2.jpg" alt="chibi" style="float:left;width:42px;height:42px;">
+A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.  
+</p>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-10-03 at 12.04.00.png>)
+
+
+
