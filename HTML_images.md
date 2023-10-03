@@ -172,6 +172,175 @@ The HTML `<map>` tag defines an image map. An image map is an image with clickab
 
 6. Add link to destination page in `href` attribute.
 
+## HTML Background Images 
+
+To add a background image on an HTML element, use the HTML `style` attribute and the CSS `background-image` property
+
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Background Image</h2>
+
+<p>A background image for a `p` element:</p>
+
+<p style="background-image: url('doc-files/clouds.jpg');">
+You can specify background images<br>
+for any visible HTML element.<br>
+In this example, the background image<br>
+is specified for a p element.<br>
+By default, the background-image<br>
+will repeat itself in the direction(s)<br>
+where it is smaller than the element<br>
+where it is specified. Try resizing the<br>
+browser window to see how the<br>
+background image behaves.
+</p>
+
+</body>
+</html>
+```
+
+![Alt text](<doc-files/Screenshot 2023-10-03 at 16.18.08.png>)
+
+### Background image in the `<style>` element, in the `<head>` section:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  background-image: url('doc-files/clouds.jpg');
+}
+</style>
+</head>
+<body>
+
+```
+## Background Image on a Page
+
+Entire page as a background image specify the background image on the <body> element:
+
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('doc-files/clouds.jpg');
+}
+</style>
+</head>
+<body>
+
+<h2>Background Image</h2>
+
+<p>By default, the background image will repeat itself if it is smaller than the element where it is specified, in this case the body element.</p>
+
+</body>
+</html>
+```
+
+![Alt text](<doc-files/Screenshot 2023-10-03 at 16.27.27.png>)
+
+### To avoid the background image from repeating itself, set the background-repeat property to no-repeat
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('doc-files/clouds.jpg');
+  background-repeat: no-repeat;
+}
+</style>
+</head>
+<body>
+
+<h2>Background No Repeat</h2>
+
+<p>You can avoid the image from being repeated by setting the background-repeat property to "no-repeat".</p>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-10-03 at 16.30.01.png>)
+
+
+### All Background Cover
+
+Set the `background-repeat` property to `no-repeat`
+
+Set the `background-size` property to `cover` 
+
+Set the `background-attachment`` property to `fixed`:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('doc-files/clouds.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<h2>Background Cover</h2>
+
+<p>Set the background-size property to "cover" and the background image will cover the entire element, in this case the body element.</p>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-10-03 at 16.36.46.png>)
+
+### Background Stretch
+
+To stretch image to fit the entire element, you can set the `background-size` property to `100% 100%`:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('doc-files/clouds.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
+
+<h2>Background Stretch</h2>
+
+<p>Set the background-size property to "100% 100%" and the background image will be stretched to cover the entire element, in this case the body element.</p>
+
+</body>
+</html>
+```
+## The HTML `<picture>` Element
+
+The `<picture>` element contains one or more `<source>` elements, each referring to different images through the `srcset` attribute. This way the browser can choose the image that best fits the current view and/or device.
+
+Each `<source>` element has a media attribute that defines when the image is the most suitable.
+
+
+
+
+
+
 
 
 
