@@ -17,7 +17,7 @@ The source file `src`, alternative text `alt`, `width`, and `height` are provide
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-10-02 at 14.40.31.png>)
+![Alt text](<doc-files/Screenshot 2023-10-03 at 14.13.47.png>)
 
 
 ```
@@ -47,7 +47,7 @@ img {
 </html>
 ```
 
-![Alt text](<doc-files/Screenshot 2023-10-03 at 11.31.08.png>)
+![Alt text](<doc-files/Screenshot 2023-10-03 at 14.12.01.png>)
 
 ## Images in Another Folder
 
@@ -64,7 +64,7 @@ img {
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-10-03 at 11.37.26.png>)
+![Alt text](<doc-files/Screenshot 2023-10-03 at 14.09.53.png>)
 
 ## Images on Another Server
 
@@ -124,7 +124,15 @@ A paragraph with a floating image. A paragraph with a floating image. A paragrap
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-10-03 at 12.04.00.png>)
+![Alt text](<doc-files/Screenshot 2023-10-03 at 14.06.39.png>)
+
+### Image Maps
+
+The HTML `<map>` tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more `<area>` tags.
+
+
+
+
 
 
 

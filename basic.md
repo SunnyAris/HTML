@@ -608,5 +608,4 @@ The source file `src`, alternative text `alt`, `width`, and `height` are provide
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-10-02 at 14.40.31.png>)
-
+![Alt text](<doc-files/Screenshot 2023-10-03 at 14.13.47.png>)

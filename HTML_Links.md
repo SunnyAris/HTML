@@ -124,13 +124,13 @@ To use an image as a link put the `<img>` tag inside the `<a>` tag:
 
 <p>The image below is a link. Try to click on it.</p>
 
-<a href="HTML_Links.md"><img src="doc-files/20211224_165825.png" alt="HTML" style="width:142px;height:142px;"></a>
+<a href="HTML_Links.md"><img src="doc-files/chibi2.jpg" alt="HTML" style="width:142px;height:142px;"></a>
 
 </body>
 </html>
 ```
 
-![Alt text](<doc-files/Screenshot 2023-10-02 at 14.34.50.png>)
+![Alt text](<doc-files/Screenshot 2023-10-03 at 14.18.54.png>)
 
 
 ## Link to an Email Address
