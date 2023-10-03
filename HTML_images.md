@@ -131,8 +131,25 @@ A paragraph with a floating image. A paragraph with a floating image. A paragrap
 The HTML `<map>` tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more `<area>` tags.
 
 
+```
+<!DOCTYPE html>
+<html>
+<body>
 
+<h2>Image Maps</h2>
+<p>Click on the paladin or octopus to go to a new page and read more about the topic:</p>
 
+<img src="doc-files/rycerzs.jpg" alt="Github" usemap="#workmap" width="532" height="376">
 
+<map name="workmap">
+  <area shape="rect" coords="358,373,500,47" alt="paladin" href="http://git.artemi.uk/">
+  <area shape="circle" coords="92,271,106" alt="octopus" href="http://git.artemi.uk/">
+</map>
+
+</body>
+</html>
+```
+
+![Alt text](<doc-files/Screenshot 2023-10-03 at 15.40.48.png>)
 
 
