@@ -334,13 +334,87 @@ body {
 
 The `<picture>` element contains one or more `<source>` elements, each referring to different images through the `srcset` attribute. This way the browser can choose the image that best fits the current view and/or device.
 
-Each `<source>` element has a media attribute that defines when the image is the most suitable.
+Each `<source>` element has a `media` attribute that defines when the image `srcset` is the most suitable.
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h2>The picture Element</h2>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="doc-files/rycerzs.jpg">
+  <source media="(min-width: 465px)" srcset="doc-files/clouds.jpg">
+  <img src="doc-files/chibi2.jpg" style="width:auto;">
+</picture>
+
+<p>Resize the browser to see different versions of the picture loading at different viewport sizes.
+    The browser looks for the first source element where the media query matches the user's current viewport width,
+    and fetches the image specified in the srcset attribute.</p>
+    
+    <p>The img element is required as the last child tag of the picture declaration block.
+    The img element is used to provide backward compatibility for browsers that do not support the picture element, or if none of the source tags matched.
+    </p>
+    
+    <p><strong>Note:</strong> The picture element is not supported in IE12 and earlier or Safari 9.0 and earlier.</p>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-10-04 at 12.36.02.png>)
 
 
+![Alt text](<doc-files/Screenshot 2023-10-04 at 12.36.46.png>)
 
 
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h2>The picture Element</h2>
+
+<picture>
+  <source srcset="doc-files/chibi2.jpg">
+  <source srcset="doc-files/clouds.jpg">
+  <img src="doc-files/rycerzs.jpg" alt="rycerz" style="width:auto;">
+</picture>
+
+<p>The picture element can be used when the image format is not supported by all devices.</p>
+
+<p>The device will use the first image format it supports, and ignore the rest of the images.</p>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-10-04 at 12.44.05.png>)
 
 
+## HTML Favicon
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+
+<h1>Heading</h1>
+<p>Paragraph.</p>
+
+</body>
+</html>
+```
+![Alt text](<doc-files/Screenshot 2023-10-04 at 13.25.39.png>)
 
 
 
