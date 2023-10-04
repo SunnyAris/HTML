@@ -117,6 +117,30 @@ Country codes can also be added to the language code in the `lang` attribute.
 
 `<html lang="en-US">`
 
+## `<head>`
+
+### `<title>`
+
+`<title>` element adds a title to your page:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page Title</title>
+  
+</head>
+<body>
+
+<h1>Heading</h1>
+<p>Paragraph.</p>
+
+</body>
+</html>
+
+```
+![Alt text](<doc-files/Screenshot 2023-10-04 at 13.25.39.png>)
+
 ## `<body>`
 
 ### HTML Headings `<h1>`
