@@ -52,7 +52,7 @@ It has a start tag `<p>` and an end tag `</p>`
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-28 at 16.49.55.png>)
+![Alt text](doc-files/Screenshot_2023-09-28_at_16.49.55.png)
 
 ```
 <!DOCTYPE html>
@@ -68,7 +68,7 @@ It has a start tag `<p>` and an end tag `</p>`
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-28 at 16.54.12.png>)
+![Alt text](doc-files/Screenshot_2023-09-28_at_16.54.12.png)
 
 
 ```
@@ -139,7 +139,7 @@ Country codes can also be added to the language code in the `lang` attribute.
 </html>
 
 ```
-![Alt text](<doc-files/Screenshot 2023-10-04 at 13.25.39.png>)
+![Alt text](doc-files/Screenshot_2023-10-04_at_13.25.39.png)
 
 ## `<body>`
 
@@ -231,7 +231,7 @@ The HTML style attribute has the following syntax:
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-27 at 17.03.17.png>)
+![Alt text](doc-files/Screenshot_2023-09-27_at_17.03.17.png)
 
 ```
 <!DOCTYPE html>
@@ -244,7 +244,7 @@ The HTML style attribute has the following syntax:
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-27 at 17.08.09.png>)
+![Alt text](doc-files/Screenshot_2023-09-27_at_17.08.09.png)
 
 
 ```
@@ -258,7 +258,7 @@ The HTML style attribute has the following syntax:
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-27 at 17.11.05.png>)
+![Alt text](doc-files/Screenshot_2023-09-27_at_17.11.05.png)
 
 ```
 <!DOCTYPE html>
@@ -271,7 +271,7 @@ The HTML style attribute has the following syntax:
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-27 at 17.15.22.png>)
+![Alt text](doc-files/Screenshot_2023-09-27_at_17.15.22.png)
 
 ```
 <!DOCTYPE html>
@@ -284,7 +284,7 @@ The HTML style attribute has the following syntax:
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-27 at 17.17.49.png>)
+![Alt text](doc-files/Screenshot_2023-09-27_at_17.17.49.png)
 
 ```
 <!DOCTYPE html>
@@ -297,7 +297,7 @@ The HTML style attribute has the following syntax:
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-27 at 17.19.15.png>)
+![Alt text](doc-files/Screenshot_2023-09-27_at_17.19.15.png)
 
 
 ### HTML Horizontal 
@@ -475,7 +475,7 @@ Formatting elements were designed to display special types of text:
 
 ```
 
-![Alt text](<doc-files/Screenshot 2023-09-28 at 13.27.17.png>)
+![Alt text](doc-files/Screenshot_2023-09-28_at_13.27.17.png)
 
 ### HTML `<blockquote>` for Quotations
 
@@ -493,7 +493,7 @@ Formatting elements were designed to display special types of text:
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-28 at 14.19.55.png>)
+![Alt text](doc-files/Screenshot_2023-09-28_at_14.19.55.png)
 
 ### HTML `<q>` for Short Quotations
 
@@ -509,7 +509,7 @@ Formatting elements were designed to display special types of text:
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-28 at 14.25.10.png>)
+![Alt text](doc-files/Screenshot_2023-09-28_at_14.25.10.png)
 
 ### HTML `<abbr>` for Abbreviations
 
@@ -527,7 +527,7 @@ Use the global title attribute to show the description for the abbreviation/acro
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-28 at 14.30.15.png>)
+![Alt text](doc-files/Screenshot_2023-09-28_at_14.30.15.png)
 
 ### HTML `<address>` for Contact Information
 
@@ -554,7 +554,7 @@ USA
 </html>
 ```
 
-![Alt text](<doc-files/Screenshot 2023-09-28 at 14.38.42.png>)
+![Alt text](doc-files/Screenshot_2023-09-28_at_14.38.42.png)
 
 ### HTML `<cite>` for Work Title
 
@@ -572,7 +572,7 @@ USA
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-28 at 15.07.00.png>)
+![Alt text](doc-files/Screenshot_2023-09-28_at_15.07.00.png)
 
 
 ### HTML Links
@@ -610,7 +610,7 @@ BDO stands for Bi-Directional Override.
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-28 at 16.33.00.png>)
+![Alt text](doc-files/Screenshot_2023-09-28_at_16.33.00.png)
 
 
 ### HTML Images
@@ -632,4 +632,4 @@ The source file `src`, alternative text `alt`, `width`, and `height` are provide
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-10-03 at 14.13.47.png>)
+![Alt text](doc-files/Screenshot_2023-10-03_at_14.13.47.png)

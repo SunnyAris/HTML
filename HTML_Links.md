@@ -50,7 +50,7 @@ Use the `mailto:` scheme inside the `href` attribute to create a link that opens
 </html>
 ```
 
-![Alt text](doc-files/Screenshot 2023-10-02 at 15.05.13.png)
+![Alt text](doc-files/Screenshot_2023-10-02_at_15.05.13.png)
 
 
 
@@ -83,7 +83,7 @@ The `target` attribute can have one of the following values:
 </html>
 ```
 
-![Alt text](doc-files/Screenshot 2023-10-02 at 12.00.22.png)
+![Alt text](doc-files/Screenshot_2023-10-02_at_12.00.22.png)
 
 
 ## Absolute URLs vs. Relative URLs
@@ -108,7 +108,7 @@ Relative URL = link to a page located in the html folder on the current web site
 ```
 
 
-![Alt text](doc-files/Screenshot 2023-10-02 at 13.10.19.png)
+![Alt text](doc-files/Screenshot_2023-10-02_at_13.10.19.png)
 
 
 ## HTML Links - Use an Image as a Link
@@ -130,7 +130,7 @@ To use an image as a link put the `<img>` tag inside the `<a>` tag:
 </html>
 ```
 
-![Alt text](doc-files/Screenshot 2023-10-03 at 14.18.54.png)
+![Alt text](doc-files/Screenshot_2023-10-03_at_14.18.54.png)
 
 
 ## Link to an Email Address
@@ -152,7 +152,7 @@ To use an image as a link put the `<img>` tag inside the `<a>` tag:
 
 ```
 
-![Alt text](doc-files/Screenshot 2023-10-02 at 14.47.03.png)
+![Alt text](doc-files/Screenshot_2023-10-02_at_14.47.03.png)
 
 
 ## HTML Link Colors
@@ -205,10 +205,10 @@ a:active {
 </html>
 ```
 
-![Alt text](doc-files/Screenshot 2023-10-02 at 15.38.52.png)
+![Alt text](doc-files/Screenshot_2023-10-02_at_15.38.52.png)
 
 
-![Alt text](doc-files/Screenshot 2023-10-02 at 15.39.35.png)
+![Alt text](doc-files/Screenshot_2023-10-02_at_15.39.35.png)
 
 
 ## Button as a link
@@ -231,7 +231,7 @@ To use an HTML button as a link, you have to add some JavaScript code.
 </html>
 ```
 
-![Alt text](doc-files/Screenshot 2023-10-02 at 14.52.48.png)
+![Alt text](doc-files/Screenshot_2023-10-02_at_14.52.48.png)
 
 
 ### Link Buttons Color
@@ -265,9 +265,9 @@ a:hover, a:active {
 </html>
 ```
 
-![Alt text](doc-files/Screenshot 2023-10-02 at 15.58.16.png)
+![Alt text](doc-files/Screenshot_2023-10-02_at_15.58.16.png)
 
-![Alt text](doc-files/Screenshot 2023-10-02 at 15.58.45.png)
+![Alt text](doc-files/Screenshot_2023-10-02_at_15.58.45.png)
 
 
 ### Create a Bookmark in HTML
@@ -333,4 +333,4 @@ DOCTYPE html>
 </html>
 ```
 
-![Alt text](doc-files/Screenshot 2023-10-02 at 16.15.41.png)
+![Alt text](doc-files/Screenshot_2023-10-02_at_16.15.41.png)

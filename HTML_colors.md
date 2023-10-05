@@ -34,7 +34,7 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-30 at 13.11.25.png>)
+![Alt text](doc-files/Screenshot_2023-09-30_at_13.11.25.png)
 
 ### Text Cloor
 
@@ -52,7 +52,7 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-30 at 13.16.40.png>)
+![Alt text](doc-files/Screenshot_2023-09-30_at_13.16.40.png)
 
 ### Border Color
 
@@ -70,7 +70,7 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-30 at 13.21.01.png>)
+![Alt text](doc-files/Screenshot_2023-09-30_at_13.21.01.png)
 
 ```
 <!DOCTYPE html>
@@ -92,7 +92,7 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-30 at 17.09.58.png>)
+![Alt text](doc-files/Screenshot_2023-09-30_at_17.09.58.png)
 
 
 ## HTML RGB, RGBA colors
@@ -135,7 +135,7 @@ To display `white`, set all color parameters to 255, like this: rgb(255, 255, 25
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-30 at 14.04.00.png>)
+![Alt text](doc-files/Screenshot_2023-09-30_at_14.04.00.png)
 
 ### RGBA
 
@@ -166,7 +166,7 @@ The alpha parameter is a number between 0.0 fully transparent and 1.0 not transp
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-30 at 14.15.13.png>)
+![Alt text](doc-files/Screenshot_2023-09-30_at_14.15.13.png)
 
 ## HTML HEX Colors
 
@@ -196,7 +196,7 @@ To display `white`, set all color parameters to ff, like this: #ffffff.
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-30 at 16.09.00.png>)
+![Alt text](doc-files/Screenshot_2023-09-30_at_16.09.00.png)
 
 ## HTML HSL and HSLA Colors
 
@@ -245,7 +245,7 @@ lightness.
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-30 at 16.48.05.png>)
+![Alt text](doc-files/Screenshot_2023-09-30_at_16.48.05.png)
 
 ### HSLA
 
@@ -274,5 +274,5 @@ alpha.
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-09-30 at 16.54.37.png>)
+![Alt text](doc-files/Screenshot_2023-09-30_at_16.54.37.png)
 

@@ -17,7 +17,7 @@ The source file `src`, alternative text `alt`, `width`, and `height` are provide
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-10-03 at 14.13.47.png>)
+![Alt text](doc-files/Screenshot_2023-10-03_at_14.13.47.png)
 
 
 ```
@@ -47,7 +47,7 @@ img {
 </html>
 ```
 
-![Alt text](<doc-files/Screenshot 2023-10-03 at 14.12.01.png>)
+![Alt text](doc-files/Screenshot_2023-10-03_at_14.12.01.png)
 
 ## Images in Another Folder
 
@@ -64,7 +64,7 @@ img {
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-10-03 at 14.09.53.png>)
+![Alt text](doc-files/Screenshot_2023-10-03_at_14.09.53.png)
 
 ## Images on Another Server
 
@@ -80,7 +80,7 @@ img {
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-10-03 at 11.49.29.png>)
+![Alt text](doc-files/Screenshot_2023-10-03_at_11.49.29.png)
 
 ## Animated Images
 
@@ -98,7 +98,7 @@ img {
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-10-03 at 11.56.20.png>)
+![Alt text](doc-files/Screenshot_2023-10-03_at_11.56.20.png)
 
 ## Floating Images
 
@@ -124,7 +124,7 @@ A paragraph with a floating image. A paragraph with a floating image. A paragrap
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-10-03 at 14.06.39.png>)
+![Alt text](doc-files/Screenshot_2023-10-03_at_14.06.39.png)
 
 ### Image Maps
 
@@ -150,7 +150,7 @@ The HTML `<map>` tag defines an image map. An image map is an image with clickab
 </html>
 ```
 
-![Alt text](<doc-files/Screenshot 2023-10-03 at 15.43.25.png>)
+![Alt text](doc-files/Screenshot_2023-10-03_at_15.43.25.png)
 
 
 
@@ -203,7 +203,7 @@ background image behaves.
 </html>
 ```
 
-![Alt text](<doc-files/Screenshot 2023-10-03 at 16.18.08.png>)
+![Alt text](doc-files/Screenshot_2023-10-03_at_16.18.08.png)
 
 ### Background image in the `<style>` element, in the `<head>` section:
 
@@ -245,7 +245,7 @@ body {
 </html>
 ```
 
-![Alt text](<doc-files/Screenshot 2023-10-03 at 16.27.27.png>)
+![Alt text](doc-files/Screenshot_2023-10-03_at_16.27.27.png)
 
 ### To avoid the background image from repeating itself, set the background-repeat property to no-repeat
 
@@ -269,7 +269,7 @@ body {
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-10-03 at 16.30.01.png>)
+![Alt text](doc-files/Screenshot_2023-10-03_at_16.30.01.png)
 
 
 ### All Background Cover
@@ -302,7 +302,7 @@ body {
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-10-03 at 16.36.46.png>)
+![Alt text](doc-files/Screenshot_2023-10-03_at_16.36.46.png)
 
 ### Background Stretch
 
@@ -365,10 +365,10 @@ Each `<source>` element has a `media` attribute that defines when the image `src
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-10-04 at 12.36.02.png>)
+![Alt text](doc-files/Screenshot_2023-10-04_at_12.36.02.png)
 
 
-![Alt text](<doc-files/Screenshot 2023-10-04 at 12.36.46.png>)
+![Alt text](doc-files/Screenshot_2023-10-04_at_12.36.46.png)
 
 
 ```
@@ -394,7 +394,7 @@ Each `<source>` element has a `media` attribute that defines when the image `src
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-10-04 at 12.44.05.png>)
+![Alt text](doc-files/Screenshot_2023-10-04_at_12.44.05.png)
 
 
 ## HTML Favicon
@@ -414,7 +414,7 @@ Each `<source>` element has a `media` attribute that defines when the image `src
 </body>
 </html>
 ```
-![Alt text](<doc-files/Screenshot 2023-10-04 at 13.25.39.png>)
+![Alt text](doc-files/Screenshot_2023-10-04_at_13.25.39.png)
 
 
 
