@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+table, th, td {
+  border: solid rgb(233, 15, 15);
+  border-collapse: collapse;
+}
+</style>
+</head>
 <body>
 
-<h2>Image Maps</h2>
-<p>Click on the paladin or octopus to go to my github profile:</p>
-
-<img src="doc-files/rycerzs.jpg" alt="Github" usemap="#workmap" width="532" height="376">
-
-<map name="workmap">
-  <area shape="rect" coords="358,373,500,47" alt="paladin" href="http://git.artemi.uk/">
-  <area shape="circle" coords="92,271,106" alt="octopus" href="http://git.artemi.uk/">
-</map>
+  <h2>Collapsed Borders</h2>
+  <p>If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
+  
+<table style="width:100%">
+  <tr>
+    <th>Genre</th>
+    <th>Author</th>
+    <th>Title</th>
+  </tr>
+  <tr>
+    <td>Fiction</td>
+    <td>J. K. Rowling</td>
+    <td>Harry Potter</td>
+  </tr>
+  <tr>
+    <td>Detective</td>
+    <td>Arthur Conan Doyle</td>
+    <td>Sherlock Holmes</td>
+  </tr>
+  <tr>
+    <td>Drama</td>
+    <td>William Shakespeare</td>
+    <td>Hamlet</td>
+  </tr>
+</table>
 
 </body>
 </html>
