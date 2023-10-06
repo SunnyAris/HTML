@@ -41,75 +41,6 @@ table, th, td {
 ```
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-  table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  td, th {
-    border: 1px solid #d54242;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #c99c9c;
-  }
-  </style>
-  </head>
-  <body>
-  
-  <h2>HTML Table</h2>
-  
-  <table>
-    <tr>
-      <th>Genre</th>
-      <th>Author</th>
-      <th>Title</th>
-    </tr>
-    <tr>
-      <td>Fiction</td>
-      <td>J. K. Rowling</td>
-      <td>Harry Potter</td>
-    </tr>
-    <tr>
-      <td>Detective</td>
-      <td>Arthur Conan Doyle</td>
-      <td>Sherlock Holmes</td>
-    </tr>
-    <tr>
-      <td>Drama</td>
-      <td>William Shakespeare</td>
-      <td>Hamlet</td>
-    </tr>
-    <tr>
-      <td>Fairy Tale</td>
-      <td>Brothers Grimm</td>
-      <td>Rapunzel</td>
-    </tr>
-    <tr>
-      <td>Horror</td>
-      <td>Stephen King</td>
-      <td>The Shining</td>
-    </tr>
-    <tr>
-      <td>Science Fiction </td>
-      <td>Frank Herbert</td>
-      <td>Dune</td>
-    </tr>
-  </table>
-  
-  </body>
-  </html>
-```
-![Alt text](doc-files/Screenshot_2023-10-05_at_13.26.16.png)
-
-```
-<!DOCTYPE html>
-<html>
 <style>
 table, th, td {
   border:1px solid rgb(219, 73, 73);
@@ -278,55 +209,6 @@ table, th, td {
 ![Alt text](doc-files/t9.png)
 
 
-## Style Table Borders
-
-```
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-table, th, td {
-  border: 1px solid white;
-  border-collapse: collapse;
-}
-th, td {
-  background-color: #e37979;
-}
-</style>
-</head>
-<body>
-
-<h2>Table With Invisible Borders</h2>
-
-<p>Style the table with white borders and a background color of the cells to make the impression of invisible borders.</p>
-
-<table style="width:100%">
-  <tr>
-    <th>Genre</th>
-    <th>Author</th>
-    <th>Title</th>
-  </tr>
-  <tr>
-    <td>Fiction</td>
-    <td>J. K. Rowling</td>
-    <td>Harry Potter</td>
-  </tr>
-  <tr>
-    <td>Detective</td>
-    <td>Arthur Conan Doyle</td>
-    <td>Sherlock Holmes</td>
-  </tr>
-  <tr>
-    <td>Drama</td>
-    <td>William Shakespeare</td>
-    <td>Hamlet</td>
-  </tr>
-</table>
-
-</body>
-</html>
-```
-![Alt text](doc-files/t3.png)
 
 ## Round Table Borders
 
@@ -559,46 +441,6 @@ th {
 </html>
 ```
 ![Alt text](doc-files/t11.png)
-
-## Header for multiple columns
-
-```
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-  table, th, td {
-    border: 1px solid rgb(234, 10, 10);
-    border-collapse: collapse;
-  }
-  </style>
-  </head>
-  <body>
-  
-  <h2>A header that spans two columns</h2>
-  
-  <p>Use the colspan attribute to have a header span over multiple columns.</p>
-  
-  <table style="width:100%">
-    <tr>
-      <th colspan="2">Name</th>
-      <th>Age</th>
-    </tr>
-    <tr>
-      <td>Arthur</td>
-      <td>William</td>
-      <td>50</td>
-    </tr>
-    <tr>
-      <td>Frank</td>
-      <td>Stephen</td>
-      <td>94</td>
-    </tr>
-  </table>
-  </body>
-  </html>
-```
-![Alt text](doc-files/t12.png)
 
 
 ## Table `<caption>`
