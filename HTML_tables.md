@@ -463,5 +463,190 @@ th, td {
 ```
 ![Alt text](doc-files/t7.png)
 
+## HTML table headers
+
+Vertical table headers 
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid rgb(233, 15, 15);
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<h2>Vertical Table Headers</h2>
+
+<p>The first column becomes table headers if you set the first table cell in each table row to a TH element:</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Genre</th>
+    <td>Fiction</td>
+    <td>Detective</td>
+    <td>Drama</td>
+  </tr>
+  <tr>
+    <th>Author</th>
+    <td>J. K. Rowling</td>
+    <td>Arthur Conan Doyle</td>
+    <td>William Shakespeare</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Harry Potter</td>
+    <td>Sherlock Holmes</td>
+    <td>Hamlet</td>
+  </tr>
+</table>
+
+</body>
+</html>
+```
+![Alt text](doc-files/t10.png)
+
+## Align table headers
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid rgb(233, 15, 15);
+  border-collapse: collapse;
+}
+th {
+  text-align: left;
+}
+</style>
+</head>
+<body>
+
+  <h2>Left-align Headers</h2>
+
+  <p>To left-align the table headers, use the CSS text-align property.</p> 
+
+<table style="width:100%">
+  <tr>
+    <th>Genre</th>
+    <th>Author</th>
+    <th>Title</th>
+  </tr>
+  <tr>
+    <td>Fiction</td>
+    <td>J. K. Rowling</td>
+    <td>Harry Potter</td>
+  </tr>
+  <tr>
+    <td>Detective</td>
+    <td>Arthur Conan Doyle</td>
+    <td>Sherlock Holmes</td>
+  </tr>
+  <tr>
+    <td>Drama</td>
+    <td>William Shakespeare</td>
+    <td>Hamlet</td>
+  </tr>
+</table>
+
+</body>
+</html>
+```
+![Alt text](doc-files/t11.png)
+
+## Header for multiple columns
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  table, th, td {
+    border: 1px solid rgb(234, 10, 10);
+    border-collapse: collapse;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <h2>A header that spans two columns</h2>
+  
+  <p>Use the colspan attribute to have a header span over multiple columns.</p>
+  
+  <table style="width:100%">
+    <tr>
+      <th colspan="2">Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Arthur</td>
+      <td>William</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Frank</td>
+      <td>Stephen</td>
+      <td>94</td>
+    </tr>
+  </table>
+  </body>
+  </html>
+```
+![Alt text](doc-files/t12.png)
+
+
+## Table `<caption>`
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid rgb(244, 9, 9);
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+</style>
+</head>
+<body>
+
+<h2>Table Caption</h2>
+<p>To add a caption to a table, use the caption tag.</p>
+
+<table style="width:100%">
+  <caption>Male Age</caption>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Frank</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>William</td>
+    <td>50</td>
+  </tr>
+</table>
+
+</body>
+</html>
+```
+![Alt text](doc-files/t13.png)
+
+
+
+
+
 
 
