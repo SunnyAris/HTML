@@ -1,3 +1,12 @@
+### The `<colgroup>` element should be used as a container for the column specifications.
+
+### Each group is specified with a `<col>` element.
+
+### The `span` attribute specifies how many columns that get the style.
+
+### The `style` attribute specifies the style to give the columns.
+
+
 ## Table With Invisible Borders
 
 ```
@@ -277,3 +286,302 @@ th:nth-child(even),td:nth-child(even) {
 
 ![Alt text](doc-files/ts10.png)
 
+## Hoverable Table
+
+Use the `:hover` selector on tr to highlight table rows on mouse over:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+
+tr:hover {background-color: #d43131;}
+</style>
+</head>
+<body>
+
+<h2>Hoverable Table</h2>
+<p>Move the mouse over the table rows to see the effect.</p>
+
+
+  <table>
+    <tr>
+      <th>Genre</th>
+      <th>Author</th>
+      <th>Title</th>
+    </tr>
+    <tr>
+      <td>Fiction</td>
+      <td>J. K. Rowling</td>
+      <td>Harry Potter</td>
+    </tr>
+    <tr>
+      <td>Detective</td>
+      <td>Arthur Conan Doyle</td>
+      <td>Sherlock Holmes</td>
+    </tr>
+    <tr>
+      <td>Drama</td>
+      <td>William Shakespeare</td>
+      <td>Hamlet</td>
+    </tr>
+    <tr>
+      <td>Fairy Tale</td>
+      <td>Brothers Grimm</td>
+      <td>Rapunzel</td>
+    </tr>
+    <tr>
+      <td>Horror</td>
+      <td>Stephen King</td>
+      <td>The Shining</td>
+    </tr>
+    <tr>
+      <td>Science Fiction </td>
+      <td>Frank Herbert</td>
+      <td>Dune</td>
+    </tr>
+  </table>
+  
+  </body>
+  </html>
+```
+
+![Alt text](doc-files/ts12.png)
+
+
+## HTML Table Colgroup
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<h2>Colgroup</h2>
+<p>Add the a colgroup with a col element that spans over two columns to define a style for the two columns:</p>
+
+<table style="width: 100%;">
+<colgroup>
+  <col span="2" style="background-color: #ed6363">
+</colgroup>
+    <tr>
+      <th>Genre</th>
+      <th>Author</th>
+      <th>Title</th>
+    </tr>
+    <tr>
+      <td>Fiction</td>
+      <td>J. K. Rowling</td>
+      <td>Harry Potter</td>
+    </tr>
+    <tr>
+      <td>Detective</td>
+      <td>Arthur Conan Doyle</td>
+      <td>Sherlock Holmes</td>
+    </tr>
+    <tr>
+      <td>Drama</td>
+      <td>William Shakespeare</td>
+      <td>Hamlet</td>
+    </tr>
+    <tr>
+      <td>Fairy Tale</td>
+      <td>Brothers Grimm</td>
+      <td>Rapunzel</td>
+    </tr>
+    <tr>
+      <td>Horror</td>
+      <td>Stephen King</td>
+      <td>The Shining</td>
+    </tr>
+    <tr>
+      <td>Science Fiction </td>
+      <td>Frank Herbert</td>
+      <td>Dune</td>
+    </tr>
+  </table>
+  
+  </body>
+  </html>
+```
+![Alt text](doc-files/ts13.png)
+
+## Multiple Col Elements
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<h2>Multiple Col Elements</h2>
+<p>Add multiple col elements in the colgroup:</p>
+
+<table style="width: 100%;">
+  <colgroup>
+    <col span="2" style="background-color: #e94747">
+    <col span="3" style="background-color: rgb(243, 179, 190)">
+  </colgroup>
+<tr>
+<th>MON</th>
+<th>TUE</th>
+<th>WED</th>
+<th>THU</th>
+<th>FRI</th>
+<th>SAT</th>
+<th>SUN</th>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+</tr>
+<tr>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+</tr>
+<tr>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+<td>20</td>
+<td>21</td>
+</tr>
+<tr>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+<td>25</td>
+<td>26</td>
+<td>27</td>
+<td>28</td>
+</tr>
+</table>
+
+</body>
+</html>
+```
+![Alt text](doc-files/ts14.png)
+
+## Empty Colgroups
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<h2>Empty Colgroups</h2>
+<p>Add "empty" col elements that represents the columns before the columns you want to style:</p>
+
+<table style="width: 100%;">
+<colgroup>
+  <col span="3">
+  <col span="2" style="background-color: pink">
+</colgroup>
+<tr>
+<th>MON</th>
+<th>TUE</th>
+<th>WED</th>
+<th>THU</th>
+<th>FRI</th>
+<th>SAT</th>
+<th>SUN</th>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+</tr>
+<tr>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+</tr>
+<tr>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+<td>20</td>
+<td>21</td>
+</tr>
+<tr>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+<td>25</td>
+<td>26</td>
+<td>27</td>
+<td>28</td>
+</tr>
+</table>
+
+</body>
+</html>
+```
+
+![Alt text](doc-files/ts15.png)
+
+
+### Hide Columns
+
+```
+<colgroup>
+    <col span="2">
+    <col span="3" style="visibility: collapse">
+  </colgroup>
+  ```
+
+![Alt text](doc-files/ts16.png)

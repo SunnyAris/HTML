@@ -309,4 +309,71 @@ th, td {
 ```
 ![Alt text](doc-files/ts6.png)
 
+## Horizontal Dividers
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #db7a7a;
+}
+</style>
+</head>
+<body>
+
+<h2>Bordered Table Dividers</h2>
+<p>Add the border-bottom property to the tr elements for horizontal dividers:</p>
+
+
+  <table>
+    <tr>
+      <th>Genre</th>
+      <th>Author</th>
+      <th>Title</th>
+    </tr>
+    <tr>
+      <td>Fiction</td>
+      <td>J. K. Rowling</td>
+      <td>Harry Potter</td>
+    </tr>
+    <tr>
+      <td>Detective</td>
+      <td>Arthur Conan Doyle</td>
+      <td>Sherlock Holmes</td>
+    </tr>
+    <tr>
+      <td>Drama</td>
+      <td>William Shakespeare</td>
+      <td>Hamlet</td>
+    </tr>
+    <tr>
+      <td>Fairy Tale</td>
+      <td>Brothers Grimm</td>
+      <td>Rapunzel</td>
+    </tr>
+    <tr>
+      <td>Horror</td>
+      <td>Stephen King</td>
+      <td>The Shining</td>
+    </tr>
+    <tr>
+      <td>Science Fiction </td>
+      <td>Frank Herbert</td>
+      <td>Dune</td>
+    </tr>
+  </table>
+  
+  </body>
+  </html>
+```
+
+![Alt text](doc-files/ts11.png)
+
 
