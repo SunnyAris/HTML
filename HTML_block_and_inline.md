@@ -138,11 +138,157 @@ Three `<div>` elements with a class attribute with the value of "city". All of t
 ![Alt text](doc-files/hb4.png)
 
 
-Two `<span>` elements with a class attribute with the value of "note". Both `<span>` elements will be styled equally according to the .note style definition in the head section:
+### Two `<span>` elements with a class attribute with the value of "note". Both `<span>` elements will be styled equally according to the .note style definition in the head section:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.note {
+  font-size: 120%;
+  color: rgb(46, 46, 219);
+}
+</style>
+</head>
+<body>
+
+<h1>My <span class="note">Important</span> Heading</h1>
+<p>This is some <span class="note">important</span> text.</p>
+
+</body>
+</html>
+```
 
 ![Alt text](doc-files/hb5.png)
 
+### The class Attribute
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: rgb(103, 123, 239);
+  color: white;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<h2>The class Attribute</h2>
+<p>Use CSS to style elements with the class name "city":</p>
+
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+</body>
+</html>
+```
+![Alt text](doc-files/hb6.png)
 
 
+### Multiple Classes
 
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: rgb(103, 123, 239);
+  color: white;
+  padding: 10px;
+} 
+
+.main {
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Multiple Classes</h2>
+<p>Here, all three h2 elements belongs to the "city" class. In addition, London also belongs to the "main" class, which center-aligns the text.</p>
+
+<h2 class="city main">London</h2>
+<h2 class="city">Paris</h2>
+<h2 class="city">Tokyo</h2>
+
+</body>
+</html>
+```
+
+![Alt text](doc-files/hb7.png)
+
+### Different Elements Can Share Same Class
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: rgb(82, 104, 244);
+  color: white;
+  padding: 10px;
+} 
+</style>
+</head>
+<body>
+
+<h2>Different Elements Can Share Same Class</h2>
+
+<p>Even if the two elements do not have the same tag name, they can both point to the same class, and get the same CSS styling:</p>
+
+<h2 class="city">Paris</h2>
+<p class="city">Paris is the capital of France.</p>
+
+</body>
+</html>
+```
+![Alt text](doc-files/hb8.png)
+
+### The class Attribute in JavaScript
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Use of The class Attribute in JavaScript</h2>
+<p>Click the button to hide all elements with class name "city":</p>
+
+<button onclick="myFunction()">Hide elements</button>
+
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+<script>
+function myFunction() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
+```
+![Alt text](doc-files/hb9.png)
 
