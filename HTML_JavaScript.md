@@ -115,6 +115,6 @@ document.getElementById("demo").innerHTML = "Hello JavaScript!";
 </html>
 ```
 
-![Alt text](doc-files/hjs5.png)
+![Alt text](doc-files/hjs6.png)
 
 
