@@ -1,40 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-table, th, td {
-  border: solid rgb(233, 15, 15);
-  border-collapse: collapse;
-}
-</style>
-</head>
 <body>
 
-  <h2>Collapsed Borders</h2>
-  <p>If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
-  
-<table style="width:100%">
-  <tr>
-    <th>Genre</th>
-    <th>Author</th>
-    <th>Title</th>
-  </tr>
-  <tr>
-    <td>Fiction</td>
-    <td>J. K. Rowling</td>
-    <td>Harry Potter</td>
-  </tr>
-  <tr>
-    <td>Detective</td>
-    <td>Arthur Conan Doyle</td>
-    <td>Sherlock Holmes</td>
-  </tr>
-  <tr>
-    <td>Drama</td>
-    <td>William Shakespeare</td>
-    <td>Hamlet</td>
-  </tr>
-</table>
+<h1>My First JavaScript</h1>
+<p>Here, a JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "doc-files/light1.jpg"
+  } else {
+    pic = "doc-files/light2.jpg"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="doc-files/light1.jpg" width="266" height="343">
+
+<p>
+<button type="button" onclick="light(1)">Light On</button>
+<button type="button" onclick="light(0)">Light Off</button>
+</p>
 
 </body>
 </html>
