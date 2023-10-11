@@ -4,6 +4,11 @@ HTML images are defined with the `<img>` tag.
 
 The source file `src`, alternative text `alt`, `width`, and `height` are provided as attributes
 
+If the CSS `width` property is set to 100%, the image will be responsive and scale up and down.
+
+If the `max-width` property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size
+
+
 ### File path examples
 
 
