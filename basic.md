@@ -313,6 +313,29 @@ The HTML style attribute has the following syntax:
 ```
 ![Alt text](doc-files/Screenshot_2023-09-27_at_17.19.15.png)
 
+### Responsive text 
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h1 style="font-size:10vw;">Responsive Text</h1>
+
+<p style="font-size:5vw;">Resize the browser window to see how the text size scales.</p>
+
+<p style="font-size:5vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
+
+<p>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
+
+</body>
+</html>
+```
+![Alt text](doc-files/hb13.png)
+
 
 ### HTML Horizontal 
 The `<hr>` element is used to separate content (or define a change) in an HTML page:
@@ -647,3 +670,91 @@ The source file `src`, alternative text `alt`, `width`, and `height` are provide
 </html>
 ```
 ![Alt text](doc-files/Screenshot_2023-10-03_at_14.13.47.png)
+
+
+
+## HTML Computer Code Elements
+
+
+### The `<kbd>` element defines keyboard input
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The kbd Element</h2>
+
+<p>The kbd element is used to define keyboard input:</p>
+
+<p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+
+</body>
+</html>
+```
+
+### The `<samp>` element defines sample output from a computer program
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The samp Element</h2>
+
+<p>The samp element is used to define sample output from a computer program.</p>
+
+<p>Message from my computer:</p>
+<p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+</body>
+</html>
+```
+
+### The `<code>` element defines a piece of computer code
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Computer Code</h2>
+<p>Some programming code:</p>
+
+<code>
+a = 1;
+b = 2;
+c = a + b;
+</code>
+
+</body>
+</html>
+```
+
+
+### The `<var>` element defines a variable in programming or in a mathematical expression
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The var Element</h2>
+
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+
+</body>
+</html>
+```
+
+### The `<pre>` element defines preformatted text
+
+```
+<pre>
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+</pre>
+```
