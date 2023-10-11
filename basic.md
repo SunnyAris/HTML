@@ -119,7 +119,21 @@ Country codes can also be added to the language code in the `lang` attribute.
 
 ## `<head>`
 
+The `<head>` element is a container for metadata (data about data) and is placed between the `<html>` tag and the `<body>` tag.
+
+
+
 ### `<title>`
+
+`<title>` element:
+
+- defines a title in the browser toolbar
+
+- provides a title for the page when it is added to favorites
+
+- displays a title for the page in search engine-results
+
+The title must be text-only.
 
 `<title>` element adds a title to your page:
 
