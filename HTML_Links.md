@@ -270,3 +270,32 @@ a:hover, a:active {
 ![Alt text](doc-files/Screenshot_2023-10-02_at_15.58.45.png)
 
 
+## The HTML `<base>` element
+
+The `<base>` element specifies the base URL and/or target for all relative URLs in a page.
+
+The `<base>` tag must have either an href or a target attribute present, or both.
+
+There can only be one single `<base>` element in a document!
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="https://github.com/" target="_blank">
+</head>
+<body>
+
+<h1>The base element</h1>
+
+<p><img src="https://github.com/SunnyAris/HTML/raw/main/doc-files/Screenshot_2023-10-03_at_14.13.47.png" width="100" height="100" alt="chibi"> - Notice that we have only specified a relative address for the image. Since we have specified a base URL in the head section, the browser will look for the image at "https://github.com/SunnyAris/HTML/blob/main/HTML_images.md".</p>
+
+<p><a href="SunnyAris/HTML/blob/main/HTML_images.md">HTML base tag</a> - Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".</p>
+
+</body>
+</html>
+```
+
+![Alt text](doc-files/hl15.png)
+
+

@@ -436,4 +436,63 @@ Each `<source>` element has a `media` attribute that defines when the image `src
 ![Alt text](doc-files/Screenshot_2023-10-04_at_13.25.39.png)
 
 
+### `<meta>` element
+
+The `<meta>` element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings.
+
+Define the character set used:
+
+`<meta charset="UTF-8">`
+
+Define keywords for search engines:
+
+`<meta name="keywords" content="HTML, CSS, JavaScript">`
+
+Define a description of your web page:
+
+`<meta name="description" content="Free Web tutorials">`
+
+Define the author of a page:
+
+`<meta name="author" content="John Doe">`
+
+Refresh document every 30 seconds:
+
+`<meta http-equiv="refresh" content="30">`
+
+Setting the viewport to make your website look good on all devices:
+
+<`meta name="viewport" content="width=device-width, initial-scale=1.0">`
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+</head>
+<body>
+
+<p>All meta information goes inside the head section.</p>
+
+</body>
+</html>
+```
+
+### Setting the viewport
+
+```
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+`<meta>` element in all your web pages gives the browser instructions on how to control the page's dimensions and scaling
+
+The `width=device-width` part sets the width of the page to follow the screen-width of the device 
+
+The `initial-scale=1.0` part sets the initial zoom level when the page is first loaded by the browser.
+
+
+
 
