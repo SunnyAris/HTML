@@ -1,6 +1,6 @@
 ### HTML layout elements
 
-![Alt text](../doc-files/hle.png)
+![Alt text](doc-files/hle.png)
 
 `<header>` - Defines a header for a document or a section
 
@@ -123,7 +123,7 @@ footer {
 </body>
 </html>
 ```
-![Alt text](../doc-files/hle1.png)
+![Alt text](doc-files/hle1.png)
 
 ## Responsive web pages
 
@@ -189,11 +189,7 @@ footer {
 </html>
 ```
 
-![Alt text](../doc-files/hle2.png)
+![Alt text](doc-files/hle2.png)
 
-![Alt text](../doc-files/hle3.png)
-
-
-
-
+![Alt text](doc-files/hle3.png)
 
