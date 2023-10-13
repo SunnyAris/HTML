@@ -122,7 +122,6 @@ Country codes can also be added to the language code in the `lang` attribute.
 The `<head>` element is a container for metadata (data about data) and is placed between the `<html>` tag and the `<body>` tag.
 
 
-
 ### `<title>`
 
 `<title>` element:
