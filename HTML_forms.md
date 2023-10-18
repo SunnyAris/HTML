@@ -157,7 +157,7 @@ In GET submitted form data is visible in the URL
   <input type="text" id="fname" name="fname"><br><br>
   <label for="email">Email:</label>
   <input type="text" id="email" name="email"><br><br>
-  <input type="submit">
+  <input type="submit" value="Submit">
 </form>
 
 </body>
@@ -408,7 +408,7 @@ By default, the first item in the drop-down list is selected.
     <option value="Thriller">
     <option value="Fantasy">
   </datalist>
-  <input type="submit">
+  <input type="submit" value="Submit">
 </form>
 
 </body>
